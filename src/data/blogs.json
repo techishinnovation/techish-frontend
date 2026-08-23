@@ -1,0 +1,218 @@
+[
+  {
+    "id": "s1",
+    "slug": "scalable-web-architecture-2026",
+    "title": "Building Scalable Web Architecture in 2026",
+    "description": "A practical guide to designing web applications that scale gracefully — from modular monoliths to microservices, covering caching strategies, database sharding, and horizontal scaling patterns used by high-growth engineering teams.",
+    "image": "/images/1.jpg",
+    "date": "2026-01-08",
+    "category": "Web Development"
+  },
+  {
+    "id": "s2",
+    "slug": "nextjs-performance-best-practices",
+    "title": "Next.js Performance Best Practices for Production Apps",
+    "description": "Explore proven techniques for optimizing Next.js applications, including server components, image optimization, edge caching, and bundle-size reduction to deliver faster, more reliable user experiences.",
+    "image": "/images/2.jpg",
+    "date": "2026-01-15",
+    "category": "Web Development"
+  },
+  {
+    "id": "s3",
+    "slug": "django-rest-api-security-checklist",
+    "title": "The Django REST API Security Checklist Every Team Needs",
+    "description": "From authentication and rate limiting to input validation and CORS configuration, this checklist walks through the essential security controls for production-grade Django REST Framework APIs.",
+    "image": "/images/3.jpg",
+    "date": "2026-01-22",
+    "category": "Backend Engineering"
+  },
+  {
+    "id": "s4",
+    "slug": "cloud-native-devops-pipelines",
+    "title": "Designing Cloud-Native DevOps Pipelines That Scale",
+    "description": "Learn how modern engineering teams build resilient CI/CD pipelines using containerization, infrastructure as code, and automated testing to ship software faster and more reliably.",
+    "image": "/images/4.jpg",
+    "date": "2026-01-29",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "id": "s5",
+    "slug": "ux-research-driven-product-design",
+    "title": "Why UX Research Should Drive Every Product Design Decision",
+    "description": "A closer look at how research-driven design — user interviews, usability testing, and data-informed iteration — leads to interfaces that convert better and retain users longer.",
+    "image": "/images/5.jpg",
+    "date": "2026-02-05",
+    "category": "UI/UX Design"
+  },
+  {
+    "id": "s6",
+    "slug": "ai-integration-business-workflows",
+    "title": "Practical AI Integration for Everyday Business Workflows",
+    "description": "AI doesn't have to mean building a model from scratch. This article covers pragmatic ways to integrate large language models into internal tools, customer support, and data pipelines.",
+    "image": "/images/6.jpg",
+    "date": "2026-02-12",
+    "category": "AI & Data"
+  },
+  {
+    "id": "s7",
+    "slug": "mobile-app-cross-platform-strategy",
+    "title": "Choosing a Cross-Platform Strategy for Your Mobile App",
+    "description": "A comparison of cross-platform mobile development approaches and how to choose the right one based on performance requirements, team skill set, and long-term maintainability.",
+    "image": "/images/7.jpg",
+    "date": "2026-02-19",
+    "category": "Mobile Development"
+  },
+  {
+    "id": "s8",
+    "slug": "microservices-vs-monolith-2026",
+    "title": "Microservices vs. Monolith: Making the Right Call in 2026",
+    "description": "Not every product needs microservices on day one. We break down the tradeoffs between monolithic and distributed architectures, and how to decide what fits your team's stage.",
+    "image": "/images/8.jpg",
+    "date": "2026-02-26",
+    "category": "Software Engineering"
+  },
+  {
+    "id": "s9",
+    "slug": "database-indexing-postgresql-guide",
+    "title": "A Practical Guide to Database Indexing in PostgreSQL",
+    "description": "Slow queries are often an indexing problem. Learn how PostgreSQL indexes work, how to identify missing indexes, and how to measure the real impact on query performance.",
+    "image": "/images/9.jpg",
+    "date": "2026-03-05",
+    "category": "Backend Engineering"
+  },
+  {
+    "id": "s10",
+    "slug": "design-systems-for-engineering-teams",
+    "title": "Why Every Engineering Team Needs a Design System",
+    "description": "Design systems reduce inconsistency, speed up development, and improve collaboration between designers and engineers. Here's how to build one that actually gets adopted.",
+    "image": "/images/10.jpg",
+    "date": "2026-03-12",
+    "category": "UI/UX Design"
+  },
+  {
+    "id": "s11",
+    "slug": "serverless-vs-containers-2026",
+    "title": "Serverless vs. Containers: Choosing Your Cloud Runtime",
+    "description": "Serverless functions and containerized services each have their place. This guide breaks down cost, cold-start behavior, and operational complexity to help you choose.",
+    "image": "/images/11.jpg",
+    "date": "2026-03-19",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "id": "s12",
+    "slug": "product-strategy-for-startups",
+    "title": "Product Strategy Fundamentals for Early-Stage Startups",
+    "description": "Before writing a single line of code, successful startups validate demand, define success metrics, and prioritize ruthlessly. Here's a framework for getting that right.",
+    "image": "/images/12.jpg",
+    "date": "2026-03-26",
+    "category": "Product Strategy"
+  },
+  {
+    "id": "s13",
+    "slug": "typescript-large-codebases",
+    "title": "Using TypeScript Effectively in Large Codebases",
+    "description": "TypeScript pays dividends at scale. We explore patterns for strict typing, shared type libraries, and gradual adoption strategies for teams migrating from JavaScript.",
+    "image": "/images/13.jpg",
+    "date": "2026-04-02",
+    "category": "Software Engineering"
+  },
+  {
+    "id": "s14",
+    "slug": "api-first-development-approach",
+    "title": "Why API-First Development Accelerates Product Delivery",
+    "description": "Designing your API contract before building the frontend or backend unlocks parallel development, better documentation, and fewer integration surprises down the line.",
+    "image": "/images/14.jpg",
+    "date": "2026-04-09",
+    "category": "Software Engineering"
+  },
+  {
+    "id": "s15",
+    "slug": "accessible-web-design-principles",
+    "title": "Accessible Web Design: Principles Every Team Should Follow",
+    "description": "Accessibility isn't an afterthought — it's a core part of good design. Learn the WCAG fundamentals and practical techniques for building inclusive digital products.",
+    "image": "/images/1.jpg",
+    "date": "2026-04-16",
+    "category": "UI/UX Design"
+  },
+  {
+    "id": "s16",
+    "slug": "cicd-automated-testing-strategy",
+    "title": "Building a CI/CD Pipeline Backed by Automated Testing",
+    "description": "A reliable release process depends on strong test coverage. This article covers unit, integration, and end-to-end testing strategies integrated into a modern CI/CD pipeline.",
+    "image": "/images/2.jpg",
+    "date": "2026-04-23",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "id": "s17",
+    "slug": "data-pipelines-for-analytics",
+    "title": "Designing Reliable Data Pipelines for Business Analytics",
+    "description": "From ingestion to transformation to visualization, this guide walks through building data pipelines that produce trustworthy, timely insights for decision-makers.",
+    "image": "/images/3.jpg",
+    "date": "2026-04-30",
+    "category": "AI & Data"
+  },
+  {
+    "id": "s18",
+    "slug": "react-state-management-2026",
+    "title": "Modern React State Management: What to Use in 2026",
+    "description": "With so many state management options available, choosing the right one depends on your app's complexity. We compare the leading approaches and when to reach for each.",
+    "image": "/images/4.jpg",
+    "date": "2026-05-07",
+    "category": "Web Development"
+  },
+  {
+    "id": "s19",
+    "slug": "custom-software-vs-off-the-shelf",
+    "title": "Custom Software vs. Off-the-Shelf: Making the Right Investment",
+    "description": "Not every business problem needs a custom build. Here's a framework for evaluating when off-the-shelf tools are enough, and when custom software delivers real ROI.",
+    "image": "/images/5.jpg",
+    "date": "2026-05-14",
+    "category": "Software Engineering"
+  },
+  {
+    "id": "s20",
+    "slug": "mobile-app-onboarding-ux",
+    "title": "Designing Mobile App Onboarding That Actually Converts",
+    "description": "First impressions determine retention. This article breaks down onboarding UX patterns that reduce drop-off and get new users to their first meaningful action faster.",
+    "image": "/images/6.jpg",
+    "date": "2026-05-21",
+    "category": "Mobile Development"
+  },
+  {
+    "id": "s21",
+    "slug": "infrastructure-as-code-terraform",
+    "title": "Getting Started with Infrastructure as Code Using Terraform",
+    "description": "Manually configured infrastructure doesn't scale. Learn the fundamentals of infrastructure as code and how Terraform helps teams manage cloud resources safely and repeatably.",
+    "image": "/images/7.jpg",
+    "date": "2026-05-28",
+    "category": "Cloud & DevOps"
+  },
+  {
+    "id": "s22",
+    "slug": "chatbots-conversational-ai-guide",
+    "title": "A Business Guide to Chatbots and Conversational AI",
+    "description": "Conversational AI has matured well beyond scripted flows. This guide explains how modern chatbots work, where they add the most value, and how to scope a successful build.",
+    "image": "/images/8.jpg",
+    "date": "2026-06-04",
+    "category": "AI & Data"
+  },
+  {
+    "id": "s23",
+    "slug": "software-engineering-code-review-culture",
+    "title": "Building a Code Review Culture That Improves Quality",
+    "description": "Great code review practices catch bugs early and spread knowledge across a team. Here's how to structure reviews that are thorough without slowing delivery down.",
+    "image": "/images/9.jpg",
+    "date": "2026-06-11",
+    "category": "Software Engineering"
+  },
+  {
+    "id": "s24",
+    "slug": "choosing-a-software-development-partner",
+    "title": "How to Choose the Right Software Development Partner",
+    "description": "Selecting an engineering partner is a high-stakes decision. This guide covers what to evaluate — technical depth, communication, process maturity — before signing a contract.",
+    "image": "/images/10.jpg",
+    "date": "2026-06-18",
+    "category": "Product Strategy"
+  }
+]
