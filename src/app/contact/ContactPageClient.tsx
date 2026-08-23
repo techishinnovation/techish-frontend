@@ -39,9 +39,9 @@ const MARQUEE_ITEMS = ["Fast Response", "NDA-Ready", "Direct Access", "No Sales 
 const CONTACT_FALLBACK = "Not available right now — please use the message form below and we'll get back to you.";
 
 const NEXT_STEPS = [
-  { icon: FiClipboard, title: "You Reach Out", desc: "Send a message through the form or email — no lengthy intake forms, no gatekeeping." },
-  { icon: FiCoffee, title: "We Respond Personally", desc: "A real engineer or lead reads your message and replies within one business day." },
-  { icon: FiZap, title: "We Map the Path Forward", desc: "A short call to align on scope, and you'll have a clear next step within the week." },
+  { icon: FiClipboard, title: "Share Your Vision", desc: "Tell us what you're building through the form or a quick call — no lengthy questionnaires, no gatekeeping." },
+  { icon: FiCheckCircle, title: "We Scope It Together", desc: "A real engineer reviews your idea and comes back with honest feedback and a rough plan within a day." },
+  { icon: FiZap, title: "We Get to Work", desc: "Once scope and timeline are locked in, development starts — you'll see real progress within the week." },
 ];
 
 const COMMITMENTS = [
@@ -265,9 +265,9 @@ export default function ContactPageClient() {
 
       {/* WHAT HAPPENS NEXT */}
       <ProcessSteps
-        eyebrow="What Happens Next"
-        title="From First Message to Kickoff"
-        subtitle="A short, predictable path from your first message to a project underway."
+        eyebrow="How It Works"
+        title="Your Idea, Our Process"
+        subtitle="A clear, no-nonsense path from the first hello to a project in motion."
         steps={NEXT_STEPS}
         variant="mini"
       />
