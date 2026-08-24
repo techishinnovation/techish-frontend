@@ -194,13 +194,13 @@ export default function AboutPage() {
             <div className="pointer-events-none absolute left-0 right-0 top-3 hidden h-px bg-border sm:block" />
             <div className="grid gap-10 sm:grid-cols-4">
               {MILESTONES.map((m, i) => (
-                <Reveal key={m.stage} delay={i * 0.1} className="relative">
+                <Reveal key={m.stage} delay={i * 0.1} className="relative flex flex-col items-center text-center">
                   <span className="relative z-10 mb-4 flex h-6 w-6 items-center justify-center rounded-full bg-gradient-to-br from-primary to-secondary shadow-md shadow-primary/30">
                     <span className="h-2 w-2 rounded-full bg-white" />
                   </span>
                   <p className="text-xs font-bold uppercase tracking-wider text-primary/70">{m.stage}</p>
                   <h3 className="mt-2 font-heading text-base font-semibold text-foreground">{m.title}</h3>
-                  <p className="mt-1.5 text-sm leading-relaxed text-foreground-muted">{m.desc}</p>
+                  <p className="mt-1.5 text-center text-sm leading-relaxed text-foreground-muted">{m.desc}</p>
                 </Reveal>
               ))}
             </div>
