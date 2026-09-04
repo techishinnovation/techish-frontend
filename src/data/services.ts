@@ -6,39 +6,39 @@ export interface Service {
 
 export const services: Service[] = [
   {
+    title: "AI & Business Automation",
+    description:
+      "AI-powered workflows, intelligent assistants and automation systems that reduce repetitive work and solve real business problems.",
+    points: ["LLM integration", "Chatbots & assistants", "Workflow automation", "Data pipelines"],
+  },
+  {
     title: "Web Application Development",
     description:
-      "Scalable, responsive web platforms engineered with modern frameworks — from marketing sites to complex SaaS products — built for performance and long-term maintainability.",
+      "Scalable web platforms, SaaS products and business applications built for performance, usability and long-term growth.",
     points: ["Modern frontend frameworks", "Server-side rendering", "API integration", "Performance optimization"],
+  },
+  {
+    title: "Custom Software",
+    description:
+      "Internal tools, business platforms and workflow systems designed around the way your business actually operates.",
+    points: ["Workflow automation", "Legacy modernization", "SaaS platforms", "Systems integration"],
   },
   {
     title: "Mobile App Development",
     description:
-      "Native-quality iOS and Android applications built with cross-platform frameworks, so you reach every user without doubling engineering effort.",
+      "Modern iOS and Android applications built for customer-facing products and internal business use.",
     points: ["Cross-platform delivery", "Native performance", "App store deployment", "Offline-first design"],
   },
   {
-    title: "Custom Software Development",
+    title: "Product Design & UI/UX",
     description:
-      "Bespoke internal tools, SaaS platforms, and automation systems designed around your exact workflow — not the other way around.",
-    points: ["Workflow automation", "Legacy modernization", "SaaS platforms", "Systems integration"],
-  },
-  {
-    title: "UI/UX Design",
-    description:
-      "Research-driven interface design focused on usability, accessibility, and conversion — turning complex problems into intuitive user experiences.",
+      "Simple, intuitive interfaces designed around your users, business goals and product requirements.",
     points: ["User research", "Design systems", "Prototyping", "Accessibility (WCAG)"],
   },
   {
-    title: "Cloud & DevOps Engineering",
+    title: "Cloud & DevOps",
     description:
-      "CI/CD pipelines, containerization, and cloud infrastructure that let your team ship confidently and scale without operational headaches.",
+      "Reliable deployment, cloud infrastructure, CI/CD and operational foundations for software that needs to run in production.",
     points: ["CI/CD pipelines", "Infrastructure as code", "Container orchestration", "Monitoring & observability"],
-  },
-  {
-    title: "AI & Data Solutions",
-    description:
-      "Practical AI integrations, intelligent chatbots, and data pipelines that solve real business problems — not just proof-of-concepts.",
-    points: ["LLM integration", "Chatbots & assistants", "Data pipelines", "Analytics & reporting"],
   },
 ];

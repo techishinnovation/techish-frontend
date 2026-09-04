@@ -42,7 +42,7 @@ const MARQUEE_ITEMS = [
   "Transparent Delivery",
 ];
 
-const SERVICE_ICONS = [FiCode, FiSmartphone, FiLayers, FiPenTool, FiCloud, FiCpu];
+const SERVICE_ICONS = [FiCpu, FiCode, FiLayers, FiSmartphone, FiPenTool, FiCloud];
 
 const HIGHLIGHTS = [
   "Full-cycle product development",
@@ -65,7 +65,7 @@ const PROCESS_STEPS = [
 ];
 
 const DIFFERENTIATORS = [
-  { icon: FiUsers, title: "Senior engineers only", desc: "Every project is staffed with experienced engineers — no learning on your dime." },
+  { icon: FiUsers, title: "Experienced Engineering Leadership", desc: "Your project is guided by engineers who understand production systems, architecture and real-world delivery." },
   { icon: FiEye, title: "Full transparency", desc: "Shared boards, weekly demos, and honest timelines — always know where things stand." },
   { icon: FiLock, title: "Security-first delivery", desc: "Secure-by-default architecture and code review baked into every engagement." },
   { icon: FiClock, title: "Fast, iterative cycles", desc: "Agile sprints ship working software early and often, not just at the finish line." },
@@ -81,10 +81,10 @@ const INDUSTRIES = [
 ];
 
 const IMPACT_STATS = [
-  { value: "50+", label: "Products and platforms shipped" },
-  { value: "15+", label: "Industries served" },
-  { value: "98%", label: "Client retention rate" },
-  { value: "10+", label: "Years of combined engineering experience" },
+  { value: "10+", label: "Combined engineering experience" },
+  { value: "Production", label: "Real-world systems experience" },
+  { value: "AI + Automation", label: "Hands-on engineering expertise" },
+  { value: "Enterprise", label: "Technology experience" },
 ];
 
 const ENGAGEMENT_MODELS = [
@@ -139,12 +139,14 @@ export default function HomePage() {
                 Partner
               </span>
               <h1 className="mt-6 font-heading text-4xl font-bold leading-tight tracking-tight text-foreground sm:text-5xl lg:text-[3.4rem]">
-                Engineering <span className="gradient-text">Digital Excellence</span> for Ambitious Businesses
+                We Build Software That Solves <span className="gradient-text">Real Business Problems</span>.
               </h1>
               <p className="mt-6 max-w-xl text-base leading-relaxed text-foreground-muted sm:text-lg">
-                Techish Innovation designs, builds, and scales web, mobile, and
-                cloud products — combining strategy, design, and engineering
-                to turn ambitious ideas into reliable, production-grade software.
+                Techish Innovation is a software engineering company founded by
+                experienced engineers who have worked on real-world platforms,
+                automation systems, AI solutions and enterprise technology. We now
+                help businesses turn ideas, workflows and challenges into reliable
+                software.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <Link href="/our-work" data-cursor-hover="true" className="btn-primary">
@@ -231,8 +233,8 @@ export default function HomePage() {
               What We Build
             </h2>
             <p className="mt-4 text-foreground-muted">
-              End-to-end software engineering services designed to take your
-              product from concept to scale.
+              From product strategy to production, we build reliable software for
+              real-world business needs.
             </p>
           </Reveal>
 
@@ -270,11 +272,12 @@ export default function HomePage() {
           <Reveal delay={0.1}>
             <span className="badge-pill">Why Techish</span>
             <h2 className="mt-6 font-heading text-3xl font-bold text-foreground sm:text-4xl">
-              Why Teams Choose <span className="gradient-text">Techish Innovation</span>
+              Engineering Experience. <span className="gradient-text">Directly Applied.</span>
             </h2>
             <p className="mt-4 text-foreground-muted">
-              We operate like an extension of your team — senior engineers,
-              transparent process, and a genuine stake in your outcome.
+              Techish is founded by engineers with experience building real-world
+              software across AI, automation, enterprise systems and business
+              platforms.
             </p>
 
             <div className="mt-8 space-y-6">
